@@ -19,7 +19,7 @@ We solve Poisson's equation by it to convergence by a forward time-centered spac
 The Gauss-Seidel iteration for the Poisson Equation in 2D is:
 
 $$
-{f}_(i,j) = \frac{1}{4}[{f}^n_(i+1,j) + {f}^n_(i-1,j) + {f}^n_(i,j+1) + {f}^n_(i, j-1)]
+f_{i,j} = \frac{1}{4}\left(f^{n}_{i+1,j} + f^{n}_{i-1,j} + f^{n}_{i,j+1} + f^{n}_{i,j-1}\right)
 $$
 
 In Python code, a Gauss-Seidel iteration can be written as follows:
